@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare Diagnostics: Healthcare App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="flex flex-col bg-blue-500 items-center">
+        <div class="w-3/4 p-4 mx-auto bg-white shadow-lg rounded-xl">
+            <h1 class="text-center text-xl pt-4">Welcome to <br /> Test Booking Form </h1>
+            <div class='flex flex-row items-center justify-center'>
+                <form>
+                    <label class='m-2'>First name:</label><br />
+                    <input
+                        class='p-2 pb-3 bg-gray-200 w-full text-blue-900 m-2 rounded-lg shadow outline-2 outline-blue-900'
+                        type="text" id="fname" name="fname" /><br />
+                    <label class='m-2'>Last name:</label><br />
+                    <input
+                        class='p-2 pb-3 bg-gray-200 w-full text-blue-900 m-2 rounded-lg shadow outline-2 outline-blue-900'
+                        type="text" id="lname" name="lname" /><br />
+                    <label class='m-2'>Email:</label><br />
+                    <input
+                        class='p-2 pb-3 bg-gray-200 w-full text-blue-900 m-2 rounded-lg shadow outline-2 outline-blue-900'
+                        type="email" id="email" name="email" /><br />
+                    <label class='m-2'>Date of Birth:</label><br />
+                    <input
+                        class='p-2 pb-3 bg-gray-200 w-full text-blue-900 m-2 rounded-lg shadow outline-2 outline-blue-900'
+                        type="date" id="dob" name="dob" /><br />
+                    <label class='m-2'>Test Name:</label><br />
+                    <select name="tests" id="tests" multiple
+                        class='p-2 pb-3 bg-gray-200 w-full text-blue-900 m-2 rounded-lg shadow outline-2 outline-blue-900'>
+                        <option value="Blood Profile">Blood Profile</option>
+                        <option value="Sugar Fasting">Sugar Fasting</option>
+                        <option value="Sugar PP">Sugar PP</option>
+                        <option value="Ultrasound">Ultrasound</option>
+                    </select><br>
+                    <label class='m-2'>Home Collection:</label><br />
+                    <div class="w-full items-center">
+                        <input type="radio" id="yes" name="fav_language" value="yes">
+                        <label for="yes">yes</label><br>
+                        <input type="radio" id="no" name="fav_language" value="no">
+                        <label for="no">NO</label><br>
+                    </div>
+                    <label class='m-2'>Comments:</label><br />
+                    <textarea
+                        class='p-2 pb-3 bg-gray-200 w-full text-blue-900 m-2 rounded-lg shadow outline-2 outline-blue-900'
+                        id="w3review" name="w3review" rows="4" cols="50"></textarea><br>
+                    <label class='m-2'>Password to Access Report:</label><br />
+                    <input type="password" name="password" id="password"
+                        class='p-2 pb-3 bg-gray-200 w-full text-blue-900 m-2 rounded-lg shadow outline-2 outline-blue-900'><br>
+                    <div class="w-full items-center">
+                        <label class='m-2'>Read Terms and Conditions:</label> <input type="checkbox" name="checkbox"
+                            id="checkbox"><br>
+                    </div>
+                    <input
+                        class='p-2 mt-4 m-1 bg-blue-500 w-full text-gray-100 rounded-lg shadow outline-2 outline-blue-900'
+                        type="submit" name='submit' /><br />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="#">Made by: Syeda Reeha Quasar</a>
+    </div>
+</footer>
+
+</html>
