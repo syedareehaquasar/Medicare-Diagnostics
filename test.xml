@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test category="Blood">
+    <testName lang="en">Blood Profile</testName>
+    <cost>800</cost>
+    <requirements>No drugs or medicine</requirements>
+    <normalRange>varies</normalRange>
+    <comments>There are different blood profiles and depending on that different reuirements and ranges</comments>
+  </test>
+  <test category="Sugar">
+    <testName lang="en">Sugar PP</testName>
+    <cost>500</cost>
+    <requirements>empty stomach for about 6 hours</requirements>
+    <normalRange>80-100</normalRange>
+    <comments>Sugar on low or higher ends should be consulted with a doctor</comments>
+  </test>
+  <test category="Ultasound">
+    <testName lang="en">Learning XML</testName>
+    <cost>2000</cost>
+    <requirements>No requirements</requirements>
+    <normalRange>Variable</normalRange>
+    <comments>Reports will be available with comments!</comments>
+  </test>
+</tests>
